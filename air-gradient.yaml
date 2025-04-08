@@ -19,6 +19,7 @@ mqtt:
   username: !secret mqtt_username
   password: !secret mqtt_password
   discovery: true
+  discovery_unique_id_generator: mac
 
 i2c:
   sda: D2
